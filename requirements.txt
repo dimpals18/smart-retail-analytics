@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+sqlalchemy
+streamlit>=1.50
+plotly
+lxml
+requests
+openpyxl
