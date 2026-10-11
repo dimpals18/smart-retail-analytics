@@ -71,6 +71,9 @@ orders = pd.DataFrame({
     "order_date": order_dates,
     "quantity": np.random.randint(1, 6, num_orders),
 })
+# On Windows numpy integers default to 32-bit; use 64-bit so later edits never fail
+for col in ("order_id", "customer_id", "product_id", "quantity"):
+    orders[col] = orders[col].astype("int64")
 
 price_lookup = products.set_index("product_id")["price"]
 orders["base_sales"] = orders["product_id"].map(price_lookup) * orders["quantity"]
@@ -89,7 +92,7 @@ orders = orders.drop(columns=["base_sales"])
 orders.loc[orders.sample(15, random_state=1).index, "sales"] = np.nan
 outlier_idx = orders.sample(8, random_state=2).index
 orders.loc[outlier_idx, "sales"] = orders.loc[outlier_idx, "sales"] * 10
-orders.loc[orders.sample(6, random_state=3).index, "quantity"] = [0, -1, 0, -2, 0, -1]
+orders.loc[orders.sample(6, random_state=3).index, "quantity"] = np.array([0, -1, 0, -2, 0, -1], dtype="int64")
 
 # Dirty data: duplicate order rows
 orders = pd.concat([orders, orders.sample(40, random_state=4)], ignore_index=True)

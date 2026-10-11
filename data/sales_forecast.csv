@@ -1,4 +1,4 @@
-date,forecast_sales
-2026-10-01,1531893.24
-2026-11-01,1603471.1
-2026-12-01,1681803.04
+date,forecast_sales,model
+2026-10-01,1532444.16,Holt-Winters
+2026-11-01,1602406.41,Holt-Winters
+2026-12-01,1680721.74,Holt-Winters

@@ -13,7 +13,7 @@ customer_id,customer_name,age,city
 12,Customer_12,41.0,Nagpur
 13,Customer_13,53.0,Jaipur
 14,Customer_14,57.0,Nagpur
-15,Customer_15,41.0,Nagpur
+15,Customer_15,41.0, Nagpur 
 16,Customer_16,,Mumbai
 17,Customer_17,39.0,Mumbai
 18,Customer_18,19.0,Hyderabad
@@ -21,7 +21,7 @@ customer_id,customer_name,age,city
 20,Customer_20,61.0,Bengaluru
 21,Customer_21,47.0,Nagpur
 22,Customer_22,55.0,Nagpur
-23,Customer_23,19.0,Pune
+23,Customer_23,150.0,PUNE
 24,Customer_24,38.0,Mumbai
 25,Customer_25,50.0,Bengaluru
 26,Customer_26,29.0,Nashik
@@ -32,7 +32,7 @@ customer_id,customer_name,age,city
 31,Customer_31,,Jaipur
 32,Customer_32,45.0,Nagpur
 33,Customer_33,33.0,Hyderabad
-34,Customer_34,32.0,Jaipur
+34,Customer_34,32.0,JAIPUR
 35,Customer_35,64.0,Bengaluru
 36,Customer_36,61.0,Delhi
 37,Customer_37,20.0,Mumbai
@@ -40,7 +40,7 @@ customer_id,customer_name,age,city
 39,Customer_39,24.0,Hyderabad
 40,Customer_40,38.0,Nagpur
 41,Customer_41,26.0,Indore
-42,Customer_42,56.0,Hyderabad
+42,Customer_42,56.0,HYDERABAD
 43,Customer_43,35.0,Pune
 44,Customer_44,21.0,Delhi
 45,Customer_45,42.0,Delhi
@@ -52,10 +52,10 @@ customer_id,customer_name,age,city
 51,Customer_51,45.0,Chennai
 52,Customer_52,64.0,Delhi
 53,Customer_53,24.0,Indore
-54,Customer_54,61.0,Nagpur
+54,Customer_54,61.0, Nagpur 
 55,Customer_55,25.0,Jaipur
-56,Customer_56,64.0,Chennai
-57,Customer_57,52.0,Mumbai
+56,Customer_56,64.0,CHENNAI
+57,Customer_57,52.0,MUMBAI
 58,Customer_58,31.0,Jaipur
 59,Customer_59,34.0,Nagpur
 60,Customer_60,53.0,Indore
@@ -72,7 +72,7 @@ customer_id,customer_name,age,city
 71,Customer_71,51.0,Mumbai
 72,Customer_72,27.0,Nagpur
 73,Customer_73,53.0,Bengaluru
-74,Customer_74,31.0,Bengaluru
+74,Customer_74,31.0, Bengaluru 
 75,Customer_75,48.0,Chennai
 76,Customer_76,65.0,Indore
 77,Customer_77,32.0,Indore
@@ -85,7 +85,7 @@ customer_id,customer_name,age,city
 84,Customer_84,62.0,Jaipur
 85,Customer_85,35.0,Nagpur
 86,Customer_86,64.0,Jaipur
-87,Customer_87,41.0,Delhi
+87,Customer_87,120.0,Delhi
 88,Customer_88,43.0,Nagpur
 89,Customer_89,42.0,Jaipur
 90,Customer_90,62.0,Delhi
@@ -93,7 +93,7 @@ customer_id,customer_name,age,city
 92,Customer_92,46.0,Jaipur
 93,Customer_93,32.0,Delhi
 94,Customer_94,62.0,Pune
-95,Customer_95,18.0,Indore
+95,Customer_95,18.0,indore
 96,Customer_96,,Pune
 97,Customer_97,24.0,Indore
 98,Customer_98,26.0,Mumbai
@@ -119,7 +119,7 @@ customer_id,customer_name,age,city
 118,Customer_118,29.0,Chennai
 119,Customer_119,51.0,Hyderabad
 120,Customer_120,50.0,Hyderabad
-121,Customer_121,65.0,Hyderabad
+121,Customer_121,0.0,Hyderabad
 122,Customer_122,40.0,Pune
 123,Customer_123,41.0,Hyderabad
 124,Customer_124,54.0,Jaipur
@@ -129,11 +129,11 @@ customer_id,customer_name,age,city
 128,Customer_128,39.0,Nagpur
 129,Customer_129,,Bengaluru
 130,Customer_130,52.0,Pune
-131,Customer_131,18.0,Delhi
+131,Customer_131,18.0,delhi
 132,Customer_132,52.0,Pune
 133,Customer_133,54.0,Nagpur
 134,Customer_134,64.0,Nagpur
-135,Customer_135,31.0,Bengaluru
+135,Customer_135,31.0,bengaluru
 136,Customer_136,20.0,Hyderabad
 137,Customer_137,18.0,Pune
 138,Customer_138,22.0,Indore
@@ -142,7 +142,7 @@ customer_id,customer_name,age,city
 141,Customer_141,56.0,Nagpur
 142,Customer_142,44.0,Bengaluru
 143,Customer_143,26.0,Pune
-144,Customer_144,32.0,Nagpur
+144,Customer_144,32.0, Nagpur 
 145,Customer_145,32.0,Delhi
 146,Customer_146,43.0,Bengaluru
 147,Customer_147,59.0,Chennai
@@ -172,8 +172,8 @@ customer_id,customer_name,age,city
 171,Customer_171,45.0,Nashik
 172,Customer_172,45.0,Chennai
 173,Customer_173,61.0,Nashik
-174,Customer_174,61.0,Pune
-175,Customer_175,37.0,Mumbai
+174,Customer_174,61.0, Pune 
+175,Customer_175,37.0,mumbai
 176,Customer_176,47.0,Indore
 177,Customer_177,28.0,Jaipur
 178,Customer_178,45.0,Nashik
@@ -185,7 +185,7 @@ customer_id,customer_name,age,city
 184,Customer_184,30.0,Jaipur
 185,Customer_185,58.0,Pune
 186,Customer_186,20.0,Chennai
-187,Customer_187,56.0,Mumbai
+187,Customer_187,56.0,mumbai
 188,Customer_188,23.0,Mumbai
 189,Customer_189,25.0,Chennai
 190,Customer_190,44.0,Hyderabad

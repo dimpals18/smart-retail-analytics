@@ -1,0 +1,14 @@
+# Generated data (recreate with: python run_all.py)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
